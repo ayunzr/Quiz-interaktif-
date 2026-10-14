@@ -1,0 +1,254 @@
+```html
+<!DOCTYPE <html>      </html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen dan Digitalisasi Perpustakaan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-indigo-500 selection:text-white">
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 backdrop-blur-md bg-white/90">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-md shadow-indigo-200">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold text-slate-900 tracking-tight">Perpustakaan Digital</h1>
+                    <p class="text-xs text-slate-500">Manajemen & Digitalisasi</p>
+                </div>
+            </div>
+            <span class="text-xs bg-indigo-50 text-indigo-700 font-medium px-3 py-1.5 rounded-full border border-indigo-100">
+                Dokumen Referensi
+            </span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8 flex-grow w-full">
+        <div class="bg-gradient-to-br from-indigo-900 via-indigo-800 to-blue-900 rounded-3xl p-8 md:p-12 text-white shadow-xl relative overflow-hidden mb-10">
+            <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-indigo-600/30 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="relative z-10 max-w-2xl">
+                <span class="inline-block bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-indigo-400/30">
+                    Modul Evaluasi Wawasan
+                </span>
+                <h2 class="text-2xl md:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
+                    Pemahaman Teman-Teman tentang Manajemen dan Digitalisasi Perpustakaan
+                </h2>
+                <p class="text-indigo-100 text-sm md:text-base leading-relaxed opacity-90">
+                    Dokumen ini berisi daftar pertanyaan pilihan ganda lengkap dengan opsi dan kunci jawaban untuk menguji serta memperdalam wawasan seputar pengelolaan perpustakaan modern berbasis teknologi informasi.
+                </p>
+            </div>
+        </div>
+
+        <div class="space-y-6">
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">1</span>
+                    Apa tujuan utama dari penerapan sistem manajemen perpustakaan modern?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Memperluas area fisik gedung perpustakaan secara berkala</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Meningkatkan efisiensi layanan, pengelolaan koleksi, dan aksesibilitas bagi pemustaka</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Mengurangi jumlah kunjungan fisik secara drastis</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Mengganti seluruh pustakawan dengan sistem kecerdasan buatan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">2</span>
+                    Dalam konteks digitalisasi perpustakaan, apa yang dimaksud dengan <em>Digital Library</em> atau Perpustakaan Digital?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Perpustakaan yang hanya menyediakan buku cetak dengan sampul digital</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Perpustakaan yang tidak memiliki gedung fisik sama sekali</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Perpustakaan yang menyimpan koleksinya dalam format digital atau elektronik serta dapat diakses melalui jaringan komputer</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Koleksi buku pribadi yang dipindai tanpa izin penerbit</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">3</span>
+                    Standar metadata apa yang paling umum digunakan untuk mendeskripsikan sumber-sumber digital di perpustakaan?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>MARC21</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Dublin Core</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>ISBN</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>ISSN</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">4</span>
+                    Apa keuntungan utama dari penggunaan sistem RFID (<em>Radio Frequency Identification</em>) dibandingkan sistem barcode tradisional di perpustakaan?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Biaya perawatan yang jauh lebih murah</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Dapat membaca banyak item sekaligus dalam satu waktu tanpa garis pandang langsung (<em>line of sight</em>)</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Tidak memerlukan perangkat keras khusus</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Meniadakan perlunya inventarisasi tahunan sama sekali</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">5</span>
+                    Apa fungsi dari sistem <em>Integrated Library System</em> (ILS) atau Sistem Perpustakaan Terintegrasi?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Mengatur suhu ruangan dan pencahayaan di dalam gedung perpustakaan</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Mengintegrasikan berbagai fungsi operasional seperti sirkulasi, pengatalogan, pengadaan, dan keanggotaan dalam satu sistem perangkat lunak</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Menghubungkan media sosial perpustakaan dengan akun pribadi pemustaka</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Mengelola keuangan perpustakaan secara terpisah dari data buku</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">6</span>
+                    Apa tantangan terbesar dalam proses alih media (<em>digitization</em>) koleksi langka atau naskah kuno?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Kurangnya minat baca masyarakat terhadap naskah kuno</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Risiko kerusakan fisik pada dokumen asli selama proses pemindaian dan perlunya biaya pelestarian digital yang tinggi</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Format file digital naskah kuno sulit diunggah ke internet</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Tidak adanya perangkat lunak yang bisa membaca huruf kuno</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold">7</span>
+                    Apa yang dimaksud dengan <em>Open Access</em> dalam dunia publikasi dan perpustakaan digital?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Akses bebas biaya dan tanpa batasan hukum bagi pengguna untuk membaca, mengunduh, dan mendistribusikan karya ilmiah secara daring</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>Akses perpustakaan yang dibuka selama 24 jam penuh setiap hari</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Kebijakan perpustakaan yang memperbolehkan siapa saja membawa buku keluar tanpa dicatat</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D</span>
+                        <span>Sistem keanggotaan perpustakaan yang gratis untuk umum</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold"><8></8></span>
+                    Perangkat lunak apa yang sering digunakan oleh perguruan tinggi atau lembaga untuk membangun repositori institusi secara mandiri?
+                </h3>
+                <div class="grid gap-3 pl-0 md:pl-11">
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">A</span>
+                        <span>Microsoft Word</span>
+                    </div>
+                    <div class="p-4 rounded-xl border-2 border-indigo-500 bg-indigo-50/30 text-slate-900 text-sm font-medium flex items-start gap-3 shadow-sm">
+                        <span class="font-bold text-white bg-indigo-600 px-2.5 py-0.5 rounded text-xs">B</span>
+                        <span>DSpace atau EPrints</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">C</span>
+                        <span>Adobe Photoshop</span>
+                    </div>
+                    <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-700 text-sm flex items-start gap-3">
+                        <span class="font-bold text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded text-xs">D
